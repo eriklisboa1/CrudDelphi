@@ -36,7 +36,7 @@ begin
     FConnection.LoginPrompt := False;
     FConnection.DriverName  := 'Oracle';
     FConnection.Params.Values['VendorLib']   := 'oci.dll';
-    FConnection.Params.Values['LibraryName'] := 'dbxora.dll';
+    FConnection.Params.Values['LibraryName'] := 'erikli.dll';
     FConnection.Params.Values['DataBase']    := 'xe';
     FConnection.Params.Values['User_Name']   := 'SYSTEM';
     FConnection.Params.Values['Password']    := '123456';
