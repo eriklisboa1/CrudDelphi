@@ -1,8 +1,4 @@
-{*****************************************************}
-{ CRUD orientado a objetos, com banco de dados Oracle }
-{ Reinaldo Silveira - reinaldopsilveira@gmail.com     }
-{ set/2019                                            }
-{*****************************************************}
+
 
 unit U_BaseControl;
 
