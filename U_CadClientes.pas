@@ -1,8 +1,4 @@
-{*****************************************************}
-{ CRUD orientado a objetos, com banco de dados Oracle }
-{ Reinaldo Silveira - reinaldopsilveira@gmail.com     }
-{ set/2019                                            }
-{*****************************************************}
+
 
 unit U_CadClientes;
 
@@ -53,7 +49,7 @@ implementation
 
 procedure TF_CadClientes.btnExcluirClick(Sender: TObject);
 begin
-  if Application.MessageBox('Deseja realmente excluir o cliente?', 'Confirmação', MB_ICONQUESTION+MB_YESNO+MB_DEFBUTTON2) = mrYes then
+  if Application.MessageBox('Deseja realmente excluir o cliente?', 'ConfirmaÃ§Ã£o', MB_ICONQUESTION+MB_YESNO+MB_DEFBUTTON2) = mrYes then
   begin
     if FCliente.Excluir then
       inherited;
